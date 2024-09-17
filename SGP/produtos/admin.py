@@ -1,7 +1,8 @@
 import csv
 from django.http import HttpResponse
 from django.contrib import admin
-from .models import Brand , Category, Product
+from produtos.models import Brand, Category, Product
+
 
 @admin.register(Brand)
 class BrandAmin(admin.ModelAdmin):
