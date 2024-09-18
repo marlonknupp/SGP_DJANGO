@@ -126,3 +126,28 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+JAZZMIN_SETTINGS = {
+
+    'site_title': 'SGP',
+
+    'site_header':'SGP', 
+
+    'site_brand': 'SGP',
+
+    'icons': {
+         'auth': 'fas fa-users-cog',
+         'auth,user': 'fas fa-user',
+         'auth.Group': 'fas fa-users',
+         'products.Category': 'fas fa-object-group',
+         'products.Brand': 'fas fa-copyright',
+         'products.Product': 'fas fa-box',
+    },
+
+    'welcome_sign': 'Bem-vindo(a) ao SGP',
+    'copyright': 'Knupp LTDA',
+
+    'search_model':['products.Product',],
+
+    'show_ui_builder': True
+} 
