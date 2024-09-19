@@ -147,7 +147,7 @@ JAZZMIN_SETTINGS = {
     'welcome_sign': 'Bem-vindo(a) ao SGP',
     'copyright': 'Knupp LTDA',
 
-    'search_model':['products.Product',],
+    'search_model':['products.Produto',],
 
     'show_ui_builder': True
 } 
