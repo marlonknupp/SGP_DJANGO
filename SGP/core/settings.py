@@ -137,7 +137,7 @@ JAZZMIN_SETTINGS = {
 
     'icons': {
          'auth': 'fas fa-users-cog',
-         'auth,user': 'fas fa-user',
+         'auth.user': 'fas fa-user',
          'auth.Group': 'fas fa-users',
          'products.Category': 'fas fa-object-group',
          'products.Brand': 'fas fa-copyright',
@@ -151,3 +151,6 @@ JAZZMIN_SETTINGS = {
 
     'show_ui_builder': True
 } 
+
+
+
